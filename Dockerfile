@@ -21,4 +21,4 @@ RUN make -j4
 RUN make -j4 check
 RUN checkinstall -Dy --install=no --nodoc
 RUN mkdir /build && \
-      cp *.deb /build/snapraid-${SNAPRAID_VERSION}.deb
+      cp *.deb /build/snapraid-from-source.deb
